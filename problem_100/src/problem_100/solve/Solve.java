@@ -8,4 +8,10 @@ public class Solve {
 		// float f1 = sc.nextFloat();
 		System.out.printf("%.2f", sc.nextFloat());
 	}
+	
+	public void problem_1017() {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		System.out.printf("%d %d %d", num, num, num);
+	}
 }
